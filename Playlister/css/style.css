@@ -1,0 +1,238 @@
+body{
+
+	background-color: #000000 ;
+	margin: 0px;
+	height: 100%;
+}	
+#title
+{
+		position:absolute;
+		left:5%;
+		top:5%;
+}
+
+#page
+{
+		position:absolute;
+		left:5%;
+		top:5%;
+}
+#aboutText
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	width:30em;
+}
+#contactText
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	width:30em;
+
+}
+#termsText
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	width:30em;
+}
+#myAutoComplete {
+    width:15em; /* set width here or else widget will expand to fit its container */
+	position: relative;
+    padding-bottom:2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imageSound
+{
+margin-left:590px;
+}
+#textContent
+{
+	position:absolute;
+	left:20%;
+	top:23%;
+
+}
+#buttonContent
+{
+	position:absolute;
+	left:110%;
+	top:40%;
+}
+#navInfo
+{
+position: absolute;
+ top: 20%;
+ left: 5%;
+ width: 15%;
+ z-index: 1;
+}
+#navText
+{
+	position:absolute;
+	text-align:left;
+}
+    .yui-button {
+    
+        border-width: 1px 0;
+        border-style: solid;
+        border-color: #004d89;
+		margin-top: .5em;
+
+		
+    }
+
+    .yui-button .first-child {
+    
+        border-width: 0 1px;
+        border-style: solid;
+        border-color: #004d89;
+        margin: 0 -1px;
+	 	_margin: 0;
+    
+    }
+    
+    .yui-button button,
+    .yui-button a {
+    
+        padding: 0 10px;
+        font-size: 93%;  /* 12px */
+        line-height: 2;  /* ~24px */
+        *line-height: 1.7; /* For IE */
+        min-height: 2em; /* For Gecko */
+        *min-height: auto; /* For IE */
+        color: #fff;
+        border: solid 1px #599acd;
+    
+    }
+
+    .yui-button#ok-button {
+        
+        background-color: #b1ddff;
+
+    
+    }
+	#upgrade-yui, #tocWrapper > p {
+        padding: 0 0 1em;
+        margin: 0;
+    }
+    #upgrade-yui p {
+        padding: 0.5em;
+        margin: 0;
+        background: #FAFFB7;
+        color: #000;
+        border: 1px solid #B6CDE1;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        font: 177% Helvetica, Arial, sans-serif;
+        text-align: center;
+        -moz-text-shadow: 1px 1px 0 #fff;
+        -webkit-text-shadow: 1px 1px 0 #fff;
+        text-shadow: 1px 1px 0 #fff;
+        white-space: nowrap;
+    }
+    #upgrade-yui span {
+        display: block;
+    }
+    #upgrade-yui span .recommend {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #upgrade-yui p .recommend:hover {
+        text-decoration: underline;
+    }
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:right;
+}
+a:link,a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#000000;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#B1DDFF;
+}
+body 
+{
+background-color:#000000;
+}
+h1
+{
+text-align:center;
+color:#B1DDFF;
+}
+
+div.workarea { padding:10px; float:left border:2px; }
+
+ul.draglist { 
+    position: relative;
+    width: 300px; 
+    height:80px;
+    background: #f7f7f7;
+    border: 1px solid gray;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+ul.draglist li {
+   
+	margin-top:5px;
+	margin-bottom:5px;
+    cursor: move;
+   
+}
+
+ul.draglist_alt { 
+    position: relative;
+    width: 200px; 
+    list-style: none;
+    margin:0;
+    padding:0;
+    /*
+       The bottom padding provides the cushion that makes the empty 
+       list targetable.  Alternatively, we could leave the padding 
+       off by default, adding it when we detect that the list is empty.
+    */
+    padding-bottom:20px;
+}
+
+ul.draglist_alt li {
+    margin: 1px;
+    cursor: move; 
+}
+
+
+li.list1 {
+    background-color: #D1E6EC;
+    border:1px solid #7EA6B2;
+}
+
+li.list2 {
+    background-color: #D8D4E2;
+    border:1px solid #6B4C86;
+}
+
+#user_actions { float: right; }

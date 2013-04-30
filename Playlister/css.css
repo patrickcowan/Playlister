@@ -1,0 +1,46 @@
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+
+}
+li
+{
+float:right;
+}
+#wrap
+ {
+  position:absolute;
+  top:0%;
+  left: 0%;
+  width: 35em;
+  color: #15517F;
+
+}
+a:link,a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#000000;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#B1DDFF;
+}
+body 
+{
+background-color:#000000;
+}
+h1
+{
+text-align:center;
+color:#B1DDFF;
+}
